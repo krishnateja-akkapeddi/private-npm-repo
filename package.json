@@ -1,5 +1,5 @@
 {
-  "name": "lite-sail-component-library",
+  "name": "@krishnateja-akkapeddi/lite-sail-component-library",
   "version": "0.0.21",
   "description": "A simple template for a custom React component library",
   "scripts": {
