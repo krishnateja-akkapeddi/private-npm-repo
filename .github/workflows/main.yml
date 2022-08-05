@@ -15,7 +15,6 @@ jobs:
          registry-url: https://npm.pkg.github.com/
          scope: '@krishnateja-akkapeddi'
      - run: npm install 
-     - run: npm rollup
      - run: npm publish
      
        env:
