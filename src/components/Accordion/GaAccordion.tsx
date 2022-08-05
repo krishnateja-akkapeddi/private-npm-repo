@@ -25,7 +25,9 @@ const GaAccordion: React.FC<Props> = ({
       expanded={expanded}
       defaultExpanded={defaultExpanded}
     >
-      <AccordionSummary children={accordianSummary} />
+      <div>
+        <AccordionSummary children={accordianSummary} />
+      </div>
       <AccordionDetails children={accordionDetails} />
     </Accordion>
   );
