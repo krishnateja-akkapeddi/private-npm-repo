@@ -14,7 +14,7 @@ type Props = {
 
 const GaButton: React.FC<Props> = ({
   children,
-  color = ButtonColor.PRIMARY,
+  color = ButtonColor.SECONDARY,
   size = ButtonSize.MEDIUM,
   variant = ButtonVariant.CONTAINED,
   onClick,
