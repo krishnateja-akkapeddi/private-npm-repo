@@ -23,3 +23,20 @@ Basic.args = {
   variant: ButtonVariant.OUTLINED,
   onClick: () => window.alert("Hello world"),
 };
+
+export const Danger = Template.bind({});
+Danger.args = {
+  children: "Hello World!",
+  color: ButtonColor.WARNING,
+  size: ButtonSize.SMALL,
+  variant: ButtonVariant.OUTLINED,
+  onClick: () => window.alert("Hello world"),
+};
+export const Success = Template.bind({});
+Basic.args = {
+  children: "Hello World!",
+  color: ButtonColor.SUCCESS,
+  size: ButtonSize.SMALL,
+  variant: ButtonVariant.OUTLINED,
+  onClick: () => window.alert("Hello world"),
+};

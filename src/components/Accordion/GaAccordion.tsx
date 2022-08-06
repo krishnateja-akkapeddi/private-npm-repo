@@ -1,4 +1,6 @@
-import { Accordion, AccordionDetails, AccordionSummary } from "@mui/material";
+import Accordion from "@mui/material/Accordion";
+import AccordionSummary from "@mui/material/AccordionSummary";
+import AccordionDetails from "@mui/material/AccordionDetails";
 import React from "react";
 
 type Props = {

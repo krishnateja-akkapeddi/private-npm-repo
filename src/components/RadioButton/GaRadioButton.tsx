@@ -1,4 +1,4 @@
-import { Radio } from "@mui/material";
+import Radio from "@mui/material/Radio";
 import React from "react";
 import ButtonSize from "./button-size";
 import RadioButtonColor from "./button-color";

@@ -7,7 +7,7 @@ declare type Props = {
     color?: ButtonColor;
     size?: ButtonSize;
     variant?: ButtonVariant;
-    onClick: () => void;
+    onClick: (e: React.SyntheticEvent<Element, Event>) => void;
 };
 declare const GaButton: React.FC<Props>;
 export default GaButton;

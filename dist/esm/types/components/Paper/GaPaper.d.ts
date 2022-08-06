@@ -1,7 +1,7 @@
 import React from "react";
 import PaperVariant from "./paper-variant";
 declare type Props = {
-    children?: React.ReactNode;
+    children: React.ReactNode;
     variant?: PaperVariant;
     square?: boolean;
     elevation?: number;

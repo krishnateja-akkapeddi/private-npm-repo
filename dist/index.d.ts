@@ -27,7 +27,7 @@ declare type Props$3 = {
     color?: ButtonColor;
     size?: ButtonSize$1;
     variant?: ButtonVariant;
-    onClick: () => void;
+    onClick: (e: React.SyntheticEvent<Element, Event>) => void;
 };
 declare const GaButton: React.FC<Props$3>;
 
@@ -47,7 +47,7 @@ declare enum PaperVariant {
 }
 
 declare type Props$1 = {
-    children?: React.ReactNode;
+    children: React.ReactNode;
     variant?: PaperVariant;
     square?: boolean;
     elevation?: number;
