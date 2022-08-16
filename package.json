@@ -1,9 +1,9 @@
 {
   "name": "@krishnateja-akkapeddi/private-npm-repo",
-  "version": "0.0.39",
+  "version": "0.0.42",
   "description": "A simple template for a custom React component library",
   "scripts": {
-    "rollup": "rollup -c",
+    "build": "rollup -c",
     "test": "jest",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook"
