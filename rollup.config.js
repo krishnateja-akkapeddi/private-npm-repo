@@ -3,6 +3,7 @@ import typescript from "@rollup/plugin-typescript";
 import postcss from "rollup-plugin-postcss";
 import dts from "rollup-plugin-dts";
 import { terser } from "rollup-plugin-terser";
+import sourcemaps from "rollup-plugin-sourcemaps";
 
 const packageJson = require("./package.json");
 
@@ -30,8 +31,8 @@ export default [
   },
   {
     input: "dist/esm/types/index.d.ts",
-    output: [{ file: "dist/index.d.ts", format: "esm" }],
-    plugins: [dts()],
+    output: [{ sourcemaps: true, file: "dist/index.d.ts", format: "esm" }],
+    plugins: [sourcemaps(), dts()],
     external: [/\.(css|less|scss)$/],
   },
 ];
