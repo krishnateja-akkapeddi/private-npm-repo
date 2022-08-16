@@ -52,10 +52,6 @@
   "files": [
     "dist"
   ],
-  "peerDependencies": {
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0"
-  },
   "types": "dist/index.d.ts",
   "homepage": "https://github.com/krishnateja-akkapeddi/plain-sailing-component-library.git",
   "email": "krishna.teja@goapptiv.com",
