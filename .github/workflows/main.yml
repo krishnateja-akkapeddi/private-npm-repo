@@ -1,9 +1,9 @@
 name: Node.js Package
 
 on:
-  pull_request_review:
-    types:
-      - submitted
+  push:
+    branches:
+      - master
 
 jobs:
   publish-gpr:
