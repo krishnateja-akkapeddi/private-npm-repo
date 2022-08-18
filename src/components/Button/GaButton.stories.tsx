@@ -34,7 +34,7 @@ Danger.args = {
 };
 export const Success = Template.bind({});
 Basic.args = {
-  children: "Hello World!",
+  children: "Hello Wrld!",
   color: ButtonColor.SUCCESS,
   size: ButtonSize.SMALL,
   variant: ButtonVariant.OUTLINED,
