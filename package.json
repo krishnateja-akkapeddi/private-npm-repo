@@ -1,6 +1,6 @@
 {
   "name": "@krishnateja-akkapeddi/private-npm-repo",
-  "version": "0.0.52",
+  "version": "0.0.53",
   "description": "A simple template for a custom React component library",
   "scripts": {
     "build": "rollup -c",
@@ -41,7 +41,6 @@
     "rollup": "^2.60.0",
     "rollup-plugin-dts": "^4.0.1",
     "rollup-plugin-postcss": "^4.0.1",
-    "rollup-plugin-uglify": "^6.0.4",
     "sass": "^1.43.5",
     "sass-loader": "^12.3.0",
     "style-loader": "^3.3.1",
