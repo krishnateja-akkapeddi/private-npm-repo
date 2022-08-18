@@ -17,7 +17,7 @@ const Template: ComponentStory<typeof GaButton> = (args) => (
 
 export const Basic = Template.bind({});
 Basic.args = {
-  children: "Hello World!",
+  children: "Hello qorld!",
   color: ButtonColor.PRIMARY,
   size: ButtonSize.SMALL,
   variant: ButtonVariant.OUTLINED,
